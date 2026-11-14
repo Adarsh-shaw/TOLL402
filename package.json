@@ -1,0 +1,15 @@
+{
+  "name": "tollrail402",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": ".venv/bin/python run.py",
+    "start": ".venv/bin/python run.py --port 3000 --host 0.0.0.0",
+    "build": "if [ -x .venv/bin/python ]; then .venv/bin/python scripts/verify_project.py --compile-only; else python3 scripts/verify_project.py --compile-only; fi",
+    "lint": "if [ -x .venv/bin/python ]; then .venv/bin/python scripts/verify_project.py; else python3 scripts/verify_project.py; fi",
+    "test": ".venv/bin/pytest -v backend/app/tests/test_tollrail402.py"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

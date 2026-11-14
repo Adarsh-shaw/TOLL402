@@ -1,0 +1,6 @@
+{
+  "name": "TollRail402",
+  "description": "Agentic Payment Rails on Algorand using HTTP 402 and USDC",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
